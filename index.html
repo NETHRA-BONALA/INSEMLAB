@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>E-Commerce Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>My Shopping Store</h1>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#products">Products</a>
+    <a href="#">About</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section class="categories">
+    <h2>Categories</h2>
+    <p>Mobiles | Laptops | Shoes | Watches</p>
+</section>
+
+<h2 class="title" id="products">Our Products</h2>
+
+<div class="products">
+
+    <div class="card">
+        <img src="image.png" alt="Mobile">
+        <h3>Mobile</h3>
+        <p>Price: ₹15000</p>
+        <button onclick="buyProduct('Mobile')">Buy Now</button>
+    </div>
+
+    <div class="card">
+        <img src="image.png" alt="Laptop">
+        <h3>Laptop</h3>
+        <p>Price: ₹45000</p>
+        <button onclick="buyProduct('Laptop')">Buy Now</button>
+    </div>
+
+    <div class="card">
+        <img src="image.png" alt="Bracelet">
+        <h3>Bracelet</h3>
+        <p>Price: ₹2000</p>
+        <button onclick="buyProduct('Bracelet')">Buy Now</button>
+    </div>
+
+    <div class="card">
+        <img src="image.png" alt="Watch">
+        <h3>Watch</h3>
+        <p>Price: ₹1000</p>
+        <button onclick="buyProduct('Watch')">Buy Now</button>
+    </div>
+
+</div>
+
+<footer id="contact">
+    <p>Copyright 2026 My Shopping Store</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
